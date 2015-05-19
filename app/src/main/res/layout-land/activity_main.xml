@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"   android:paddingTop="5dp">
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView  android:id="@+id/tv" android:layout_width="fill_parent"
+        android:layout_height="40dip" android:layout_marginRight="5dip"
+        android:layout_marginLeft="5dip"  android:background="#FFFFFF"
+        android:gravity="center_vertical|right" android:textSize="30dip"
+        android:textColor="#ff0000"></TextView>
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dip">
+
+        <Button
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:text="7"
+            android:id="@+id/Button07"/>
+        <Button
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:text="8"
+            android:id="@+id/Button08"/><Button
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:text="9"
+        android:id="@+id/Button09"/><Button
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:id="@+id/ButtonJia"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="8dip">
+        <Button
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:id="@+id/Button04"></Button>
+        <Button
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:id="@+id/Button05"></Button><Button
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:text="6"
+        android:id="@+id/Button06"></Button><Button
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:id="@+id/ButtonJian"></Button>
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dip">
+
+        <Button
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:id="@+id/Button01"/>
+        <Button
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:id="@+id/Button02"/><Button
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:id="@+id/Button03"/><Button
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:id="@+id/ButtonCheng"/>
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dip">
+
+
+        <Button
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:text="c"
+            android:id="@+id/ButtonC"/>
+        <Button
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/Button00"/><Button
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:text="="
+        android:id="@+id/ButtonDengyu"/><Button
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:text="/"
+        android:id="@+id/ButtonChu"/>
+
+    </LinearLayout>
+    </TableLayout>ablela
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+<TextView  android:id="@+id/tv1" android:layout_width="fill_parent"
+        android:layout_height="40dip" android:layout_marginRight="5dip"
+        android:layout_marginLeft="5dip"  android:background="#FFFFFF"
+        android:gravity="center_vertical|right" android:textSize="30dip"
+        android:textColor="#000000"></TextView>
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dip">
+
+        <Button
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:text="7"
+            android:id="@+id/Button071"/>
+        <Button
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:text="8"
+            android:id="@+id/Button081"/><Button
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:text="9"
+        android:id="@+id/Button091"/><Button
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:id="@+id/ButtonJia1"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="8dip">
+        <Button
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:id="@+id/Button041"></Button>
+        <Button
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:id="@+id/Button051"></Button><Button
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:text="6"
+        android:id="@+id/Button061"></Button><Button
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:id="@+id/ButtonJian1"></Button>
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dip">
+
+        <Button
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:id="@+id/Button011"/>
+        <Button
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:id="@+id/Button021"/><Button
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:id="@+id/Button031"/><Button
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:id="@+id/ButtonCheng1"/>
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dip">
+
+
+        <Button
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:text="c"
+            android:id="@+id/ButtonC1"/>
+        <Button
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/Button001"/><Button
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:text="="
+        android:id="@+id/ButtonDengyu1"/><Button
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:text="/"
+        android:id="@+id/ButtonChu1"/>
+
+    </LinearLayout>
+
+
+    </TableLayout>
+    </LinearLayout>
